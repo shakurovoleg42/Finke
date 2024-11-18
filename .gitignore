@@ -1,0 +1,31 @@
+# node_modules — папка с зависимостями
+node_modules/
+
+# Логи
+*.log
+
+# Скомпилированные файлы
+dist/
+build/
+
+# Файлы IDE
+.idea/
+.vscode/
+
+# Файлы конфигурации NPM
+package-lock.json
+npm-debug.log
+
+# Кэш Webpack
+.webpack/
+
+# Файлы, создаваемые при установке зависимости, такие как yarn.lock (если используете Yarn)
+yarn.lock
+
+# Файлы, созданные редакторами
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.swp
+*.bak

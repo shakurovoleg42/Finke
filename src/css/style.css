@@ -1,0 +1,170 @@
+h1 {
+  /* max-width: 755px; */
+  color: #fff;
+  font-size: 64.84px;
+  line-height: 74.29px;
+  font-weight: 700;
+}
+
+.first__header {
+  padding: 20px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.banner {
+  background-image: url("../images/header-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.nav__header {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.btn__consulting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  padding: 15px 38px;
+  border: none;
+  border-radius: 30px;
+  background-color: #fff;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #d61031;
+  font-weight: 700;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.btn__consulting:hover {
+  background-color: #d61031;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+
+
+.banner_preview {
+  margin-top: 84px;
+  max-width: 755.37px;
+}
+
+.banner_preview div h3 {
+  color: #ededed;
+  font-size: 17.29px;
+  line-height: 25.94px;
+  font-weight: 700;
+}
+
+.banner_preview div h2 {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 18.37px;
+  line-height: 28.1px;
+  font-weight: 400;
+}
+
+/* новая секция */
+
+.regards {
+  background-color: #d61031;
+  padding: 50px 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.regards_card {
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.info_regard_card {
+  min-width: 393px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 50px 50px;
+  color: #d61031;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+/* About section */
+
+.about {
+  padding-top: 100px;
+  background-color: #d61031;
+}
+
+.about__block{
+    display: flex;
+  margin-left: 60px;
+  justify-content: center;
+}
+
+.about_btn {
+    margin: 114px 0 0 0;
+}
+
+.about_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about_text span {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about_text h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 59px;
+}
+
+.about_text p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.btn__about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 15px 38px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fff;
+  
+    font-size: 16px;
+    line-height: 24px;
+    color: #d61031;
+    font-weight: 700;
+    user-select: none;
+}

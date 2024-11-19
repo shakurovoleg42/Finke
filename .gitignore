@@ -5,7 +5,7 @@ node_modules/
 *.log
 
 # Скомпилированные файлы
-# dist/
+dist/
 build/
 
 # Файлы IDE

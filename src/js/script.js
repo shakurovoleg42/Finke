@@ -7,13 +7,23 @@ import '../assets/css/style.css';
 document.addEventListener('DOMContentLoaded', () => {
   const burgerMenu = document.querySelector('.burger-menu');
   const mobileNav = document.querySelector('.mobile-nav');
-  console.log('2');
+  const closeBtn = document.querySelector('.close-btn');
 
-  if (burgerMenu && mobileNav) {
+  if (burgerMenu && mobileNav && closeBtn) {
+    // Открытие бургер-меню
     burgerMenu.addEventListener('click', () => {
       mobileNav.classList.toggle('active');
+      burgerMenu.classList.toggle('open');
+    });
+
+    // Закрытие бургер-меню
+    closeBtn.addEventListener('click', () => {
+      mobileNav.classList.remove('active');
+      burgerMenu.classList.remove('open');
     });
   } else {
     console.error('Элементы бургер-меню или навигации не найдены!');
   }
 });
+
+

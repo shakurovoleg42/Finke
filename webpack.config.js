@@ -7,10 +7,9 @@ module.exports = {
   entry: './src/js/script.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/[name].[contenthash].js',
+    filename: 'script.js',
     clean: true,
-    publicPath: '/',  // Добавлен publicPath для корректной загрузки файлов
-  },
+  },  
   module: {
     rules: [
       {

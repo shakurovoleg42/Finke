@@ -694,7 +694,7 @@ nav.mobile-nav ul li {
 }
 
 .reviews__card {
-  max-width: 333px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   gap: 10px;

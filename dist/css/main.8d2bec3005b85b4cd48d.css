@@ -12,8 +12,8 @@
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
-  src: url(../b7bcc075b395c14ce8c2.woff2?dd67030699838ea613ee6dbda90effa6) format("woff2"),
-url(../39795c0b4513de014cf8.woff?dd67030699838ea613ee6dbda90effa6) format("woff");
+  src: url(/b7bcc075b395c14ce8c2.woff2?dd67030699838ea613ee6dbda90effa6) format("woff2"),
+url(/39795c0b4513de014cf8.woff?dd67030699838ea613ee6dbda90effa6) format("woff");
 }
 
 .bi::before,
@@ -2161,7 +2161,7 @@ img {
 }
 
 .banner {
-  background-image: url(../assets/images/header-banner.816d1f64a1d6146cd696.png);
+  background-image: url(/assets/images/header-banner.816d1f64a1d6146cd696.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

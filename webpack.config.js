@@ -9,6 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].[contenthash].js',
     clean: true,
+    publicPath: '/',  // Добавлен publicPath для корректной загрузки файлов
   },
   module: {
     rules: [
@@ -57,7 +58,7 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, './src/assets/'),
+      directory: path.resolve(__dirname, 'dist'), // Исправлено на dist
     },
     port: 8080,
     open: true,

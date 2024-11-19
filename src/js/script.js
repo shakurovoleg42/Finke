@@ -5,6 +5,7 @@ import '../assets/css/style.css';
 
 
 document.addEventListener('DOMContentLoaded', () => {
+  console.log("dom content loaded successfully")
   const burgerMenu = document.querySelector('.burger-menu');
   const mobileNav = document.querySelector('.mobile-nav');
   const closeBtn = document.querySelector('.close-btn');

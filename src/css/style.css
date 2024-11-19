@@ -408,7 +408,6 @@ nav.mobile-nav ul li {
   color: #fff;
 }
 
-/* Медиа-запросы для адаптивности */
 @media (max-width: 1200px) {
   .about__content {
     gap: 20px;
@@ -538,7 +537,7 @@ nav.mobile-nav ul li {
 }
 
 .catalog__card__info {
-  height: 250px; /* Фиксированная высота для всех карточек */
+  height: 250px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -652,6 +651,7 @@ nav.mobile-nav ul li {
 }
 
 .why__info p {
+  max-width: 600px;
   font-size: 17px;
   font-weight: 400;
   line-height: 26px;
@@ -669,7 +669,7 @@ nav.mobile-nav ul li {
   max-width: 604px;
   flex-direction: column;
   color: #d61031;
-  text-align: left; /* Выравнивание текста для небольших экранов */
+  text-align: left;
 }
 
 .reviews__header h5 {
@@ -686,14 +686,15 @@ nav.mobile-nav ul li {
 }
 
 .reviews__cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Динамические колонки */
-  gap: 30px; /* Расстояние между карточками */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
   margin-top: 30px;
 }
 
 .reviews__card {
-  max-width: 100%; /* Убираем фиксированную ширину */
+  max-width: 333px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -718,9 +719,6 @@ nav.mobile-nav ul li {
   text-align: left;
 }
 
-/* MEDIA QUERIES */
-
-/* Для небольших экранов */
 @media screen and (max-width: 768px) {
   .reviews {
     padding: 60px 20px;
@@ -751,7 +749,6 @@ nav.mobile-nav ul li {
   }
 }
 
-/* Для телефонов и очень маленьких экранов */
 @media screen and (max-width: 480px) {
   .reviews {
     padding: 50px 15px;

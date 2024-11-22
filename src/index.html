@@ -8,7 +8,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -27,7 +27,7 @@
                 <span style="color: #d61031">sales2016@finke-oil.ru</span>
               </a>
             </div>
-            <div>
+            <div class="d-flex flex-row gap-2 align-items-center">
               <a
                 href="tel:+74951808833"
                 class="text-decoration-none text-black d-flex flex-row align-items-center gap-2"
@@ -38,7 +38,7 @@
             </div>
           </div>
           <div class="d-flex flex-row gap-4 align-items-center">
-            <svg
+            <!-- <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
@@ -78,7 +78,7 @@
               <path
                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
               />
-            </svg>
+            </svg> -->
           </div>
         </div>
       </div>
@@ -98,18 +98,42 @@
             <span></span>
           </button>
           <nav class="d-none d-md-block">
-            <ul class="nav__header d-flex flex-row justify-content-center align-items-center gap-3">
+            <ul
+              class="nav__header d-flex flex-row justify-content-center align-items-center gap-3"
+            >
               <li class="nav-item"><a class="nav-link" href="/">Главная</a></li>
-              <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
-              <li class="nav-item"><a class="nav-link" href="#catalog">Каталог</a></li>
-              <li class="nav-item"><a class="nav-link" href="#why">Партнеры</a></li>
-              <li class="nav-item"><a class="nav-link" href="#reviews">Контакты</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#catalog">Каталог</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#why">Партнеры</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Контакты</a>
+              </li>
             </ul>
           </nav>
           <a href="#" class="text-decoration-none d-none d-md-inline-block">
-            <button class="btn__consulting">Консультация
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" font-weight="bold" fill="none" stroke="currentColor" stroke-width="1.3" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            <button class="btn__consulting">
+              Консультация
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="16"
+                font-weight="bold"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.3"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
               </svg>
             </button>
           </a>
@@ -118,17 +142,28 @@
           <button class="close-btn">×</button>
           <ul class="nav__header d-flex flex-column">
             <li class="nav-item"><a class="nav-link" href="/">Главная</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
-            <li class="nav-item"><a class="nav-link" href="#catalog">Каталог</a></li>
-            <li class="nav-item"><a class="nav-link" href="#why">Партнеры</a></li>
-            <li class="nav-item"><a class="nav-link" href="#reviews">Контакты</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#catalog">Каталог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#why">Партнеры</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Контакты</a>
+            </li>
           </ul>
         </nav>
         <div class="banner_preview d-flex flex-column gap-5">
           <div class="d-flex flex-column gap-4">
             <h3>FINKE</h3>
             <h1>Каталог масел и смазочных материалов Finke</h1>
-            <h2>Смазочные материалы Finke – это более 130 лет успешного опыта в сфере производства моторных масел и других технических жидкостей.</h2>
+            <h2>
+              Смазочные материалы Finke – это более 130 лет успешного опыта в
+              сфере производства моторных масел и других технических жидкостей.
+            </h2>
           </div>
           <div class="pb-5">
             <a href="#catalog" class="text-decoration-none">
@@ -137,8 +172,12 @@
           </div>
         </div>
       </div>
+      <img
+        src="assets/images/red-border.png"
+        alt="blue border"
+        style="width: 100%"
+      />
     </section>
-    
 
     <!-- Award section  -->
     <section id="awards" class="regards">
@@ -157,7 +196,10 @@
           <div class="regards_card">
             <div class="info_regard_card">
               <div>
-                <img src="assets/images/icons/stethoscope.svg" alt="stethoscope" />
+                <img
+                  src="assets/images/icons/stethoscope.svg"
+                  alt="stethoscope"
+                />
               </div>
               <div>
                 <span>Многолетний опыт</span>
@@ -167,7 +209,10 @@
           <div class="regards_card">
             <div class="info_regard_card">
               <div>
-                <img src="assets/images/icons/user-nurse.svg" alt="user-nurse" />
+                <img
+                  src="assets/images/icons/user-nurse.svg"
+                  alt="user-nurse"
+                />
               </div>
               <div>
                 <span>Гарантия</span>
@@ -182,7 +227,12 @@
       <div class="container">
         <div class="about__content">
           <div class="about__image">
-            <img src="assets/images/about.png" alt="about" class="about__img" />
+            <img
+              src="assets/images/about.png"
+              alt="about"
+              class="about__img"
+              style="height: 649px"
+            />
           </div>
 
           <div class="about__info">
@@ -227,6 +277,12 @@
 
     <!-- Catalog section  -->
     <section id="catalog" class="catalog">
+      <img
+        src="assets/images/red-border.png"
+        alt="blue border"
+        style="width: 100%; transform: scale(-1, -1)"
+      />
+
       <div class="container">
         <div class="catalog__content">
           <div class="catalog__title">
@@ -298,7 +354,10 @@
             </div>
             <div class="catalog__card__product">
               <div>
-                <img src="assets/images/catalog-images/engine.png" alt="catalog" />
+                <img
+                  src="assets/images/catalog-images/engine.png"
+                  alt="catalog"
+                />
               </div>
               <div class="catalog__card__info">
                 <h5>Редукторные масла</h5>
@@ -393,6 +452,11 @@
           </div>
         </div>
       </div>
+      <img
+        src="assets/images/red-border.png"
+        alt="red border"
+        style="width: 100%"
+      />
     </section>
 
     <section id="why" class="why">
@@ -438,13 +502,19 @@
     </section>
 
     <section id="reviews" class="reviews">
+      <img
+        src="assets/images/blue-border.png"
+        alt="blue border"
+        style="width: 100%; transform: scale(-1, -1)"
+      />
+
       <div class="container" style="position: relative">
         <div class="reviews__header">
           <h5>Отзывы</h5>
-          <p>
+          <!-- <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
             eiusmod tempor incididunt ut labore et dolore.
-          </p>
+          </p> -->
         </div>
         <div class="reviews__cards">
           <div class="reviews__card">
@@ -512,7 +582,13 @@
               </svg>
             </div>
             <div>
-              <p>На запах отлично На запах отлично На запах отлично</p>
+              <p>
+                Пользуюсь моторным маслом Finke уже второй год. Отлично
+                показывает себя как зимой, так и летом — двигатель работает
+                мягко, посторонних шумов не замечаю. Замена масла раз в 10
+                тысяч, и за это время ни грамма не уходит. Рекомендую для тех,
+                кто ценит качество!
+              </p>
             </div>
             <div class="d-flex flex-row gap-3 align-items-center">
               <img
@@ -520,7 +596,7 @@
                 alt=""
                 style="width: 75px; height: 75px; border-radius: 25px"
               />
-              <span>Валера</span>
+              <span>Сергей</span>
             </div>
           </div>
           <div class="reviews__card">
@@ -588,15 +664,20 @@
               </svg>
             </div>
             <div>
-              <p>На запах отлично На запах отлично На запах отлично</p>
+              <p>
+                После того как перешла на масло Finke, заметила, что машина
+                стала запускаться легче даже в морозы. Экономия топлива тоже
+                радует, плюс чистота двигателя после вскрытия. Теперь беру
+                только это масло для своего авто!
+              </p>
             </div>
-            <div class="d-flex flex-row gap-3 align-items-center">
+            <div class="d-flex flex-row justify-end gap-3 align-items-center">
               <img
                 src="assets/images/why-men.png"
                 alt=""
                 style="width: 75px; height: 75px; border-radius: 25px"
               />
-              <span>Валера</span>
+              <span>Никита</span>
             </div>
           </div>
         </div>
@@ -607,7 +688,73 @@
           <img src="assets/images/reviews-men.png" alt="reviews" />
         </div>
       </div>
+      <img
+        src="assets/images/blue-border.png"
+        alt="blue border"
+        style="width: 100%"
+      />
     </section>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="d-flex flex-row justify-content-between">
+          <div>
+            <img
+              src="assets/images/logo.png"
+              alt=""
+              class="footer__logo"
+              style="width: 200px; height: 78px"
+            />
+          </div>
+          <div class="d-flex flex-column gap-3">
+            <div>
+              <h5>Контакты</h5>
+            </div>
+            <div
+              class="contacts__footer d-flex flex-column gap-3 align-items-start"
+            >
+              <div class="d-flex flex-row align-items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="20"
+                  style="color: #d61031"
+                  fill="currentColor"
+                  class="bi bi-geo-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"
+                  />
+                </svg>
+                <span>г. Одинцово, ул. Западная, д. 13</span>
+              </div>
+              <div class="d-flex flex-row align-items-center gap-2">
+                <img
+                  src="assets/images/icons/mail.svg"
+                  alt="mail"
+                  sizes="20px"
+                />
+                <a href="mailto:sales2016@finke-oil.ru">
+                  <span>sales2016@finke-oil.ru</span>
+                </a>
+              </div>
+              <div class="d-flex flex-row align-items-center gap-2">
+                <img
+                  src="assets/images/icons/phone.svg"
+                  alt="phone"
+                  sizes="20px"
+                />
+                <a href="tel:+74951808833">
+                  <span>+7 (495) 180-8833</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Подключение Bootstrap JS -->
     <!-- <script src="../dist/bundle.js"></script> -->
@@ -617,7 +764,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
-
-
   </body>
 </html>

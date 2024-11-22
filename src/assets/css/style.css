@@ -3,6 +3,13 @@
   height: auto;
   display: block;
 } */
+ a {
+  text-decoration: none;
+ }
+
+ img {
+  user-select: none;
+ }
 
 .first__header {
   padding: 20px 0;
@@ -635,7 +642,7 @@ nav.mobile-nav .close-btn {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 150px 0;
+  padding:0;
 
   background-color: #004f9e;
   color: #ffffff;
@@ -762,7 +769,7 @@ nav.mobile-nav .close-btn {
 /* Why section  */
 
 .why {
-  padding: 30px 0 60px 0;
+  padding: 0 0 60px 0;
   background-color: #d61031;
   color: #ffffff;
 }
@@ -798,7 +805,7 @@ nav.mobile-nav .close-btn {
 /* Review section */
 
 .reviews {
-  padding: 90px 0 60px 0;
+  padding: 0 0 60px 0;
 }
 
 .reviews__header {
@@ -858,7 +865,7 @@ nav.mobile-nav .close-btn {
 
 @media screen and (max-width: 768px) {
   .reviews {
-    padding: 60px 20px;
+    padding: 0 20px;
   }
 
   .reviews__header h5 {
@@ -888,7 +895,7 @@ nav.mobile-nav .close-btn {
 
 @media screen and (max-width: 480px) {
   .reviews {
-    padding: 50px 15px;
+    padding: 0;
   }
 
   .reviews__header h5 {
@@ -911,4 +918,19 @@ nav.mobile-nav .close-btn {
     font-size: 16px;
     line-height: 22px;
   }
+}
+
+.footer {
+  margin-top: 60px;
+  padding-bottom: 50px;
+}
+
+.contacts__footer span {
+  font-size: 17px;
+  color: rgba(41, 41, 41, 0.75);
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: none;
+
 }

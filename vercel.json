@@ -1,10 +1,8 @@
 {
-  "version": 2,
   "builds": [
     {
-      "src": "webpack.config.js",
-      "use": "@vercel/static-build"
+      "src": "package.json",
+      "use": "@vercel/node"
     }
-  ],
-  "outputDirectory": "dist"
+  ]
 }

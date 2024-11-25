@@ -9,10 +9,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/script.js',
     clean: true,
-    publicPath: process.env.NODE_ENV === 'production' ? '/' : './', // Для локальной разработки будет './', для продакшн '/'.
+    publicPath: process.env.NODE_ENV === 'production' ? '/' : './', // Убедитесь, что пути корректны
   },
-   
-
   module: {
     rules: [
       {

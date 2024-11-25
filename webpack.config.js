@@ -7,9 +7,10 @@ module.exports = {
   entry: './src/js/script.js', // Главный JS-файл
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/script.js', // Расположение выходного JS
-    clean: true, // Очищает dist перед сборкой
-  },
+    filename: 'js/script.js', // Путь к файлу JS
+    clean: true,
+  },  
+
   module: {
     rules: [
       {

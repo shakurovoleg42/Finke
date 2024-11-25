@@ -865,7 +865,7 @@ nav.mobile-nav .close-btn {
 
 @media screen and (max-width: 768px) {
   .reviews {
-    padding: 0 20px;
+    padding: 0;
   }
 
   .reviews__header h5 {
@@ -879,7 +879,7 @@ nav.mobile-nav .close-btn {
   }
 
   .reviews__card {
-    padding: 20px;
+    padding-left: 20px;
     border-radius: 20px;
   }
 
@@ -909,7 +909,7 @@ nav.mobile-nav .close-btn {
   }
 
   .reviews__card {
-    padding: 15px;
+    padding-left: 15px;
     border-radius: 15px;
   }
 
@@ -936,5 +936,22 @@ nav.mobile-nav .close-btn {
   line-height: 26px;
   text-align: left;
   text-decoration: none;
+
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
 }

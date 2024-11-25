@@ -7,9 +7,9 @@ module.exports = {
   entry: './src/js/script.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'script.js',
+    filename: 'js/script.js',
     clean: true,
-  },  
+  },
   module: {
     rules: [
       {
@@ -47,7 +47,7 @@ module.exports = {
       inject: 'body',
     }),
     new MiniCssExtractPlugin({
-      filename: 'css/[name].[contenthash].css',
+      filename: 'assets/css/[name].[contenthash].css', // Сохраняет CSS в assets/css
     }),
     new CopyWebpackPlugin({
       patterns: [
@@ -57,7 +57,7 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'dist'), // Исправлено на dist
+      directory: path.resolve(__dirname, 'dist'),
     },
     port: 8080,
     open: true,

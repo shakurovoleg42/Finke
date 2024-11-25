@@ -7,9 +7,11 @@ module.exports = {
   entry: './src/js/script.js', // Главный JS-файл
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/script.js', // Путь к файлу JS
+    filename: 'js/script.js',
     clean: true,
-  },  
+    publicPath: process.env.NODE_ENV === 'production' ? '/' : './', // Для локальной разработки будет './', для продакшн '/'.
+  },
+   
 
   module: {
     rules: [

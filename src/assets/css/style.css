@@ -347,7 +347,7 @@ nav.mobile-nav .close-btn {
 
 
 .regards {
-  background-color: #d61031;
+  background-color: #004f9e;
   padding: 50px 0;
   color: #fff;
   font-size: 16px;
@@ -439,7 +439,7 @@ nav.mobile-nav .close-btn {
 
 .about {
   padding: 100px 0;
-  background-color: #d61031;
+  background-color: #004f9e;
 }
 
 .container {
@@ -644,7 +644,7 @@ nav.mobile-nav .close-btn {
   text-align: center;
   padding:0;
 
-  background-color: #004f9e;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
@@ -770,7 +770,7 @@ nav.mobile-nav .close-btn {
 
 .why {
   padding: 0 0 60px 0;
-  background-color: #d61031;
+  background-color: #004f9e;
   color: #ffffff;
 }
 
@@ -805,7 +805,7 @@ nav.mobile-nav .close-btn {
 /* Review section */
 
 .reviews {
-  padding: 0 0 60px 0;
+  /* padding: 0 0 60px 0; */
 }
 
 .reviews__header {
@@ -921,13 +921,17 @@ nav.mobile-nav .close-btn {
 }
 
 .footer {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   padding-bottom: 50px;
+  background-color: #004f9e;
+  color:#ffffff;
 }
 
 .contacts__footer span {
   font-size: 17px;
-  color: rgba(41, 41, 41, 0.75);
+  /* color: rgba(41, 41, 41, 0.75); */
+  color:#ffffff;
+
   font-weight: 400;
   line-height: 26px;
   text-align: left;

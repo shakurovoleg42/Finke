@@ -7,7 +7,6 @@ node_modules/
 # Скомпилированные файлы
 dist/
 build/
-dist/
 
 # Файлы IDE
 .idea/

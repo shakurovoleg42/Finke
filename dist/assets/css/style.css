@@ -648,6 +648,84 @@ nav.mobile-nav .close-btn {
   color: #ffffff;
 }
 
+.catalog__content {
+  position: relative;
+  display: block;
+}
+
+.modal__products {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal__content-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.modal__close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  color:#fff
+}
+
+.modal__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.modal__product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 150px;
+}
+
+.modal__product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.modal__product-card h5 {
+  font-size: 14px;
+  margin: 10px 0;
+  color:#000
+}
+
+.btn__go {
+  background: #E65A57;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+
 .catalog__title h3 {
   font-weight: 700;
   font-size: 18px;

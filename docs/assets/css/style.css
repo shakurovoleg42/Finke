@@ -682,7 +682,8 @@ nav.mobile-nav .close-btn {
   border: none;
   font-size: 50px;
   cursor: pointer;
-  color:#fff
+  color:#fff;
+  background-color: #E65A57;
 }
 
 .modal__content {

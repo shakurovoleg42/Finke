@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: './src/js/script.js', // Главный JS-файл
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'js/script.js', // Это гарантирует, что файл будет в папке js
     clean: true,
   },
@@ -54,14 +54,14 @@ module.exports = {
       patterns: [
         { 
           from: path.resolve(__dirname, 'src/assets'), 
-          to: path.resolve(__dirname, 'dist/assets'), // Копирование assets
+          to: path.resolve(__dirname, 'docs/assets'), // Копирование assets
         },
       ],
     }),
   ],
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'dist'), // Статические файлы из dist
+      directory: path.resolve(__dirname, 'docs'), // Статические файлы из docs
     },
     port: 8080,
     open: true, // Автоматически открывать в браузере

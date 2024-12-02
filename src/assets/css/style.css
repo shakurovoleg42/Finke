@@ -358,6 +358,10 @@ nav.mobile-nav .close-btn {
 .regards_card {
   border-radius: 30px;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .info_regard_card {
@@ -366,8 +370,8 @@ nav.mobile-nav .close-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 15px;
-  padding: 50px 50px;
   color: #d61031;
   font-size: 25px;
   line-height: 35px;
@@ -377,7 +381,6 @@ nav.mobile-nav .close-btn {
 @media (max-width: 1200px) {
   .info_regard_card {
     min-width: 300px;
-    padding: 40px;
   }
 }
 
@@ -398,7 +401,6 @@ nav.mobile-nav .close-btn {
   }
 
   .info_regard_card {
-    padding: 30px;
     font-size: 20px;
     line-height: 28px;
   }
@@ -411,7 +413,6 @@ nav.mobile-nav .close-btn {
 
   .info_regard_card {
     min-width: 250px;
-    padding: 20px;
     font-size: 18px;
     line-height: 25px;
   }

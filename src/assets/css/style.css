@@ -464,6 +464,7 @@ nav.mobile-nav .close-btn {
 .about__img {
   width: 100%;
   max-width: 450px;
+  max-height: 650px;
   border-radius: 30px;
 }
 
@@ -539,15 +540,15 @@ nav.mobile-nav .close-btn {
 
 @media (max-width: 768px) {
   .about__img {
-    max-width: 80%;
-    height: 40%;
+    max-width: 350px;
+    max-height: 350px;
   }
 }
 
 @media (max-width: 480px) {
   .about__img {
-    max-width: 60%;
-    height: 30%;
+    max-width: 250px;
+    max-height: 250px;
   }
 }
 
@@ -574,7 +575,6 @@ nav.mobile-nav .close-btn {
     align-items: center;
   }
 
-  .about__image,
   .about__info {
     flex: none;
     width: 100%;

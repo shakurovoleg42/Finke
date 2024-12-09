@@ -3,13 +3,13 @@
   height: auto;
   display: block;
 } */
- a {
+a {
   text-decoration: none;
- }
+}
 
- img {
+img {
   user-select: none;
- }
+}
 
 .first__header {
   padding: 20px 0;
@@ -84,7 +84,7 @@
 }
 
 .banner {
-  background-image: url("../images/header-banner.png");
+  background-image: url("../images/header-banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -261,7 +261,6 @@ nav.mobile-nav ul li {
   position: relative;
   top: 6px;
   opacity: 0;
-
 }
 
 .burger-menu.open span:nth-child(2) {
@@ -273,7 +272,6 @@ nav.mobile-nav ul li {
   position: relative;
   top: -6px;
   opacity: 0;
-
 }
 
 nav.mobile-nav {
@@ -344,7 +342,6 @@ nav.mobile-nav .close-btn {
     display: flex;
   }
 }
-
 
 .regards {
   background-color: #004f9e;
@@ -463,9 +460,8 @@ nav.mobile-nav .close-btn {
 }
 
 .about__img {
-  width: 100%;
-  max-width: 450px;
-  max-height: 650px;
+  width: auto;
+  height: auto;
   border-radius: 30px;
 }
 
@@ -534,15 +530,10 @@ nav.mobile-nav .close-btn {
   color: #fff;
 }
 
-.about__img {
-  max-width: 100%;
-  height: auto;
-}
-
 @media (max-width: 768px) {
   .about__img {
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 250px;
+    max-height: 300px;
   }
 }
 
@@ -552,7 +543,6 @@ nav.mobile-nav .close-btn {
     max-height: 250px;
   }
 }
-
 
 @media (max-width: 1200px) {
   .about__content {
@@ -643,7 +633,7 @@ nav.mobile-nav .close-btn {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding:0;
+  padding: 0;
 
   background-color: #ffffff;
   color: #ffffff;
@@ -683,8 +673,8 @@ nav.mobile-nav .close-btn {
   border: none;
   font-size: 50px;
   cursor: pointer;
-  color:#fff;
-  background-color: #E65A57;
+  color: #fff;
+  background-color: #e65a57;
   border-radius: 8px;
   padding: 0 20px;
 }
@@ -716,11 +706,11 @@ nav.mobile-nav .close-btn {
 .modal__product-card h5 {
   font-size: 14px;
   margin: 10px 0;
-  color:#000
+  color: #000;
 }
 
 .btn__go {
-  background: #E65A57;
+  background: #e65a57;
   color: #fff;
   border: none;
   padding: 5px 10px;
@@ -728,7 +718,6 @@ nav.mobile-nav .close-btn {
   cursor: pointer;
   font-size: 12px;
 }
-
 
 .catalog__title h3 {
   font-weight: 700;
@@ -1006,19 +995,18 @@ nav.mobile-nav .close-btn {
   /* margin-top: 60px; */
   padding-bottom: 50px;
   background-color: #004f9e;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .contacts__footer span {
   font-size: 17px;
   /* color: rgba(41, 41, 41, 0.75); */
-  color:#ffffff;
+  color: #ffffff;
 
   font-weight: 400;
   line-height: 26px;
   text-align: left;
   text-decoration: none;
-
 }
 
 .footer__content {
@@ -1035,5 +1023,4 @@ nav.mobile-nav .close-btn {
     justify-content: center;
     text-align: center;
   }
-
 }

@@ -84,7 +84,7 @@ img {
 }
 
 .banner {
-  background-image: url("../images/header-banner.jpg");
+  background-image: url("../images/header-banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -229,10 +229,6 @@ nav.mobile-nav ul li {
   nav.d-md-block {
     display: none;
   }
-
-  .btn__consulting {
-    display: none;
-  }
 }
 
 .burger-menu {
@@ -331,10 +327,6 @@ nav.mobile-nav .close-btn {
   }
 
   nav.d-md-block {
-    display: none;
-  }
-
-  .btn__consulting {
     display: none;
   }
 

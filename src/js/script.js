@@ -1,36 +1,36 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("DOM Content Loaded Successfully");
 
-  const burgerMenu = document.querySelector('.burger-menu');
-  const mobileNav = document.querySelector('.mobile-nav');
-  const closeBtn = document.querySelector('.close-btn');
+  const burgerMenu = document.querySelector(".burger-menu");
+  const mobileNav = document.querySelector(".mobile-nav");
+  const closeBtn = document.querySelector(".close-btn");
 
   if (burgerMenu && mobileNav && closeBtn) {
-    burgerMenu.addEventListener('click', () => {
-      mobileNav.classList.toggle('active');
-      burgerMenu.classList.toggle('open');
+    burgerMenu.addEventListener("click", () => {
+      mobileNav.classList.toggle("active");
+      burgerMenu.classList.toggle("open");
     });
 
-    closeBtn.addEventListener('click', () => {
-      mobileNav.classList.remove('active');
-      burgerMenu.classList.remove('open');
+    closeBtn.addEventListener("click", () => {
+      mobileNav.classList.remove("active");
+      burgerMenu.classList.remove("open");
     });
   } else {
-    console.error('Элементы бургер-меню или навигации не найдены!');
+    console.error("Элементы бургер-меню или навигации не найдены!");
   }
 
   const productLinks = {
-    "Моторные масла для легковых автомобилей": "http://finke-oil.ru/shop/dlya-legkovyx-avtomobilej/",
-    "Моторные масла для коммерческого транспорта": "http://finke-oil.ru/shop/dlya-gruzovyx-avtomobilej/",
-    "Тракторные масла": "http://finke-oil.ru/shop/dlya-traktorov/",
-    "Масла для автоматических трансмиссий": "http://finke-oil.ru/shop/akpp-masla/",
-    "Гидравлические масла": "http://finke-oil.ru/shop/gidravlicheskie-masla/",
-    "Редукторные масла": "http://finke-oil.ru/shop/reduktornye-masla/",
-    "Компрессорные масла": "http://finke-oil.ru/shop/kompressornye-masla/",
-    "Масла для механических трансмиссий": "http://finke-oil.ru/shop/mkpp-masla/",
-    "Охлаждающие жидкости": "http://finke-oil.ru/shop/ohlazhdayuschie-zhidkosti/",
-    "Аэрозоли": "http://finke-oil.ru/shop/sprays/",
-    "Lubriplate": "http://finke-oil.ru/shop/lubriplate/"
+    "Моторные масла для легковых автомобилей": "https://spets-avto.kz/",
+    "Моторные масла для коммерческого транспорта": "https://spets-avto.kz/",
+    "Тракторные масла": "https://spets-avto.kz/",
+    "Масла для автоматических трансмиссий": "https://spets-avto.kz/",
+    "Гидравлические масла": "https://spets-avto.kz/",
+    "Редукторные масла": "https://spets-avto.kz/",
+    "Компрессорные масла": "https://spets-avto.kz/",
+    "Масла для механических трансмиссий": "https://spets-avto.kz/",
+    "Охлаждающие жидкости": "https://spets-avto.kz/",
+    Аэрозоли: "https://spets-avto.kz/",
+    Lubriplate: "https://spets-avto.kz/",
   };
 
   const buttons = document.querySelectorAll(".btn__catalog");
